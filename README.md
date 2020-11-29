@@ -3,7 +3,7 @@
 
 ---
 ## Instructions
-Setup a virtual environment by your preferred method or using this command:
+This program needs Python3.7 or older, so please install python3.7 first. Then, setup a virtual environment by your preferred method or using this command:
 ```
 python3 -m venv venv
 ```

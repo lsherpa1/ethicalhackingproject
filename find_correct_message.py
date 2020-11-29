@@ -121,7 +121,7 @@ if __name__ == "__main__":
         tar_filepath = "./random_path"
     elif len(sys.argv) == 3:
         dataset_path = sys.argv[1]
-        tar_filepath = './kritish-dataset3.tar.gz'
+        tar_filepath = sys.argv[2]
     else:
         print("Please specify either the path of the dataset folder or both targeted folder path and tar file path")
         print("Examples: ")
@@ -129,7 +129,6 @@ if __name__ == "__main__":
         print("python find_correct_message.py \"./lhakpa/dataset\" \"./tar_file.tar.gz\"")
         exit()
 
-    # os.path.exists("./lhakp")
     if os.path.exists(dataset_path):
         print("Dataset folder found using the folder to find the message")
     else:
